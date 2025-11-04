@@ -11,6 +11,7 @@ import logging
 blueprint = func.Blueprint()
 
 #YO
+#hey buddy
 
 @blueprint.blob_trigger(arg_name="myblob", path="myfazip",
                                connection="AzureWebJobsStorage") 
